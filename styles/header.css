@@ -1,0 +1,57 @@
+.home 
+{
+	padding: 30px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+
+	.logo 
+	{
+		flex: 1;
+
+		img
+		{
+			width: 160px;
+		}
+	}
+
+	.lang 
+	{
+		position: absolute;
+		top: 33px;
+		right: 170px;
+		list-style: none;
+
+		.lang-option
+		{
+			display: none;
+			padding: 5px *;
+		}
+
+		.selected, .hover
+		{
+			display: block;
+
+		}
+
+		&::after
+		{
+			content: "";
+			width: 20px;
+			height: 10px;
+			position: absolute;
+			top: 7px;
+			left: 100%;
+			background: url(images/selected.svg) no-repeat;
+			background-size: contain;
+		}
+	}
+
+	.menu
+	{
+		margin-right: 20px;
+	}
+}
