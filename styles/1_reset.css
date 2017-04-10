@@ -1,0 +1,10 @@
+body, a, select
+{
+    all: unset;
+}
+
+ul, h1, p, figure, figcaption
+{
+	margin: 0;
+	padding: 0;
+}
