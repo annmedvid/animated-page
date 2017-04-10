@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=ru>
+<head>
+    <meta charset="utf-8">
+    <title>Animated page</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel=stylesheet href="style.css">
+   	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+</head>
+<body>
+	<header class=home>
+		<a class=logo href=#>
+			<img src="images/faynblat_icon.svg" alt="Viktoria Faynblat">
+		</a>
+
+		<ul name=lang class=lang>
+			<li class="lang-option selected">рус
+			<li class=lang-option>укр
+			<li class=lang-option>eng
+		</ul>
+
+		<a class=menu>меню</a>
+	</header>
+
+	<main class=content>
+		<h1 class=slogan>С нами ваши мечты <br> превращаются в пространство <br> для жизни</h1>
+		<figure class=show>
+			<img class=show-image src="images/play_icon.svg">
+			<figcaption class=show-caption>Showreel</figcaption>
+		</figure>
+	</main>
+
+	<footer>
+		<a class=scrolldown href=#>
+			<img src="images/scrolldown_icon.svg">
+		</a>
+	</footer>
+
+	<video class=cover autoplay loop poster="images/puzzling.jpg">
+		<source src="media/puzzling.webm" type="video/webm">
+		<source src="media/puzzling.mp4" type="video/mp4">
+		<source src="media/puzzling.ogv" type="video/ogg">
+	</video>
+
+	<script src="main.js"></script>
+</body>
+</html>
