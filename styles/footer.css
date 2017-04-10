@@ -1,0 +1,12 @@
+.scrolldown
+{
+	padding-bottom: 40px;
+	display: flex;
+	justify-content: center;
+
+	img
+	{
+		width: 30px;
+		height: 50px;
+	}
+}
