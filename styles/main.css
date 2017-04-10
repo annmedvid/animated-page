@@ -1,0 +1,36 @@
+.content
+{
+	flex: 1;
+
+	.slogan
+	{
+		margin: 100px * 40px;
+		font-size: 40px;
+		font-weight: 100;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		color: var(--tapestry);
+	}
+
+	.show
+	{
+		width: 100px;
+		margin: auto;
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+
+		.show-image
+		{
+			width: 70px;
+			height: 70px;
+			margin-bottom: 5px;
+		}
+
+		.show-caption
+		{
+			font-style: italic;
+		}
+	}	
+}
